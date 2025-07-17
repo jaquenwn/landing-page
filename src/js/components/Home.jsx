@@ -9,16 +9,15 @@ import Jumbotron from './Jumbotron';
 //create your first component
 const Home = () => {
 	return (
-		<div className="text-center">
+		<div className="text-center container">
             
 
+				<Jumbotron 
+				title= "A Warm Welcome!" 
+				text= "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis nihil ipsum eius sint nulla. Quis necessitatibus, voluptatem, officiis accusamus veniam, animi ipsum illo beatae dolorum reprehenderit vel nostrum? Deserunt, laudantium."
+				buttonLabel= "Call to action!"
+				/>
 			
-			<Jumbotron 
-			title= "A Warm Welcome!" 
-			text= "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis nihil ipsum eius sint nulla. Quis necessitatibus, voluptatem, officiis accusamus veniam, animi ipsum illo beatae dolorum reprehenderit vel nostrum? Deserunt, laudantium."
-			buttonLabel= "Call to action!"
-			/>
-			<div className= "container">
 				<div className= "row">
 					<div className="col-md-3">
 						<Card
@@ -53,7 +52,7 @@ const Home = () => {
 						/>
 					</div>
 				</div>
-			</div>
+			
 			<p>
 				<img src={rigoImage} />
 				
