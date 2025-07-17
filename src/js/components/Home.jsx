@@ -18,25 +18,41 @@ const Home = () => {
 			text= "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis nihil ipsum eius sint nulla. Quis necessitatibus, voluptatem, officiis accusamus veniam, animi ipsum illo beatae dolorum reprehenderit vel nostrum? Deserunt, laudantium."
 			buttonLabel= "Call to action!"
 			/>
-			<div className="d-flex">
-				<Card
-				title= "Card title"
-				text= "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis nihil ipsum eius sint nulla. Quis necessitatibus, voluptatem, officiis accusamus veniam, animi ipsum illo beatae dolorum reprehenderit vel nostrum? Deserunt, laudantium."
-				buttonLabel= "Go somewhere"
-				imageUrl= "..."
-				/>
-				<Card
-				title= "Card title"
-				text= "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis nihil ipsum eius sint nulla. Quis necessitatibus, voluptatem, officiis accusamus veniam, animi ipsum illo beatae dolorum reprehenderit vel nostrum? Deserunt, laudantium."
-				buttonLabel= "Go somewhere"
-				imageUrl= "..."
-				/>
-				<Card
-				title= "Card title"
-				text= "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis nihil ipsum eius sint nulla. Quis necessitatibus, voluptatem, officiis accusamus veniam, animi ipsum illo beatae dolorum reprehenderit vel nostrum? Deserunt, laudantium."
-				buttonLabel= "Go somewhere"
-				imageUrl= "..."
-				/>
+			<div className= "container">
+				<div className= "row">
+					<div className="col-md-3">
+						<Card
+						title= "Card title"
+						text= "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis nihil ipsum eius sint nulla. Quis necessitatibus, voluptatem, officiis accusamus veniam, animi ipsum illo beatae dolorum reprehenderit vel nostrum? Deserunt, laudantium."
+						buttonLabel= "Go somewhere"
+						imageUrl= "..."
+						/>
+					</div>
+					<div className="col-md-3">
+						<Card
+						title= "Card title"
+						text= "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis nihil ipsum eius sint nulla. Quis necessitatibus, voluptatem, officiis accusamus veniam, animi ipsum illo beatae dolorum reprehenderit vel nostrum? Deserunt, laudantium."
+						buttonLabel= "Go somewhere"
+						imageUrl= "..."
+						/>
+					</div>
+					<div className="col-md-3">
+						<Card
+						title= "Card title"
+						text= "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis nihil ipsum eius sint nulla. Quis necessitatibus, voluptatem, officiis accusamus veniam, animi ipsum illo beatae dolorum reprehenderit vel nostrum? Deserunt, laudantium."
+						buttonLabel= "Go somewhere"
+						imageUrl= "..."
+						/>
+					</div>
+					<div className="col-md-3">
+						<Card
+						title= "Card title"
+						text= "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis nihil ipsum eius sint nulla. Quis necessitatibus, voluptatem, officiis accusamus veniam, animi ipsum illo beatae dolorum reprehenderit vel nostrum? Deserunt, laudantium."
+						buttonLabel= "Go somewhere"
+						imageUrl= "..."
+						/>
+					</div>
+				</div>
 			</div>
 			<p>
 				<img src={rigoImage} />
