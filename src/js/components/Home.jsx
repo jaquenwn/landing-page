@@ -2,8 +2,8 @@ import React from "react";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
-import Card from './Card';
-import Navbar from './Navbar';
+// import Card from './Card';
+// import Navbar from './Navbar';
 import Jumbotron from './Jumbotron';
 //create your first component
 const Home = () => {
