@@ -18,7 +18,26 @@ const Home = () => {
 			text= "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis nihil ipsum eius sint nulla. Quis necessitatibus, voluptatem, officiis accusamus veniam, animi ipsum illo beatae dolorum reprehenderit vel nostrum? Deserunt, laudantium."
 			buttonLabel= "Call to action!"
 			/>
-			<Card/>
+			<div className="d-flex">
+				<Card
+				title= "Card title"
+				text= "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis nihil ipsum eius sint nulla. Quis necessitatibus, voluptatem, officiis accusamus veniam, animi ipsum illo beatae dolorum reprehenderit vel nostrum? Deserunt, laudantium."
+				buttonLabel= "Go somewhere"
+				imageUrl= "..."
+				/>
+				<Card
+				title= "Card title"
+				text= "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis nihil ipsum eius sint nulla. Quis necessitatibus, voluptatem, officiis accusamus veniam, animi ipsum illo beatae dolorum reprehenderit vel nostrum? Deserunt, laudantium."
+				buttonLabel= "Go somewhere"
+				imageUrl= "..."
+				/>
+				<Card
+				title= "Card title"
+				text= "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis nihil ipsum eius sint nulla. Quis necessitatibus, voluptatem, officiis accusamus veniam, animi ipsum illo beatae dolorum reprehenderit vel nostrum? Deserunt, laudantium."
+				buttonLabel= "Go somewhere"
+				imageUrl= "..."
+				/>
+			</div>
 			<p>
 				<img src={rigoImage} />
 				
