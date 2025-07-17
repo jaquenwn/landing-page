@@ -11,9 +11,15 @@ const Home = () => {
 		<div className="text-center">
             
 
-			<h1 className="text-center mt-5">Hello Rigo!</h1>
+			
+			<Jumbotron 
+			title= "A Warm Welcome!" 
+			text= "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis nihil ipsum eius sint nulla. Quis necessitatibus, voluptatem, officiis accusamus veniam, animi ipsum illo beatae dolorum reprehenderit vel nostrum? Deserunt, laudantium."
+			buttonLabel= "Call to action!"
+			/>
 			<p>
 				<img src={rigoImage} />
+				
 			</p>
 			<a href="#" className="btn btn-success">
 				If you see this green button... bootstrap is working...
