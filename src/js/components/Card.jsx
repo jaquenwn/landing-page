@@ -2,9 +2,6 @@ import React from 'react'
 
 const Card= (props) =>{
 
-    
-
-
     return (
         <div className="card my-3" >
           <img src={props.imageUrl} className="card-img-top" />
