@@ -10,6 +10,7 @@ import Jumbotron from './Jumbotron';
 const Home = () => {
 	return (
 		<div className="text-center ">
+			    <Navbar /> 
             
 			<div>
 				
@@ -55,17 +56,13 @@ const Home = () => {
 						buttonLabel= "Find out more!"
 						imageUrl= "https://media.istockphoto.com/id/901134626/photo/sun-shining-in-a-forest.jpg?s=612x612&w=0&k=20&c=Z1GPER9EE6BQK_efVKaSO7WODScQYOMPX3TFFPCZt88="
 						/>
-					</div>
-				</div>
-			</div>
+								</div> {/* cierre de row */}
+			</div> {/* cierre de container */}
 
-			<div>
-				
-				
-			</div>
-			
-			
-		</div>
+			{/* Aquí colocamos el Footer ✅ */}
+			<Footer />
+
+		</div> {/* cierre de text-center */}
 	);
 };
 
