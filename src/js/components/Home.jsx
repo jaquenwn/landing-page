@@ -9,9 +9,14 @@ import Jumbotron from './Jumbotron';
 //create your first component
 const Home = () => {
 	return (
-		<div className="text-center container">
+		<div className="text-center ">
             
+			<div>
+				
+				
+			</div>
 
+			<div className= "container">
 				<Jumbotron 
 				title= "A Warm Welcome!" 
 				text= "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis nihil ipsum eius sint nulla. Quis necessitatibus, voluptatem, officiis accusamus veniam, animi ipsum illo beatae dolorum reprehenderit vel nostrum? Deserunt, laudantium."
@@ -52,19 +57,14 @@ const Home = () => {
 						/>
 					</div>
 				</div>
-			
-			<p>
-				<img src={rigoImage} />
+			</div>
+
+			<div>
 				
-			</p>
-			<a href="#" className="btn btn-success">
-				If you see this green button... bootstrap is working...
-			</a>
-			<p>
-				Made by{" "}
-				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
-				love!
-			</p>
+				
+			</div>
+			
+			
 		</div>
 	);
 };
